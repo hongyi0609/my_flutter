@@ -2,6 +2,17 @@
 
 A new flutter module project.
 
+## 项目指导
+1. 简书对my_flutter 的解释说明：
+https://www.jianshu.com/p/dd6de90f9e2a?v=1705760662519
+2. 准备转战掘金了，文章也同步了一份
+https://juejin.cn/post/7325717778597625892
+3. aliyun.properties
+阿里云效username 和 password 存储在本地，要自己创建。**千万注意不要加引号**
+4. artifact 配置上传指定文件
+https://stackoverflow.com/questions/26874498/publish-an-android-library-to-maven-with-aar-and-sources-jar
+
+
 ## Getting Started
 
 For help getting started with Flutter, view our online
@@ -25,7 +36,7 @@ Flutter 构建过程中的 --no-profile 标志会指示系统不生成这种性�
 ### 发布
 
 更改gradle_script="
-/Users/edwin/Library/flutter/packages/flutter_tools/gradle/aar_init_script.gradle"
+your_flutter_sdk_parent_dir/flutter/packages/flutter_tools/gradle/aar_init_script.gradle"
 文件下的代码添加发布配置
 ```
     project.publishing {
@@ -41,3 +52,5 @@ Flutter 构建过程中的 --no-profile 标志会指示系统不生成这种性�
                 }
             }
 ```
+
+
